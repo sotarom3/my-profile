@@ -1,0 +1,18 @@
+.tabList {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 8px 14px;
+  backdrop-filter: blur(12px);
+}
+
+.content {
+  flex: 1;
+  min-height: max-content;
+  width: 100%;
+  padding-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
